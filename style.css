@@ -1,0 +1,58 @@
+body{
+    background-color: #f5f5f5;
+    margin: auto;
+}
+nav{
+    background-color: #ca2323;
+    color: #f5f5f5;
+    margin: auto;
+    padding: 5px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+.div_pai_traducao{
+    margin: auto;
+    margin-top: 10%;
+    padding: 2%;
+    justify-content: center;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    border: #CCCCCC 1px solid;
+    border-radius: 20px;
+    width: fit-content;
+    background-color: #ffffff;
+}
+.slct_escolha_de_numeros{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+select{
+    height: 30px;
+    border: #CCCCCC solid 1px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+input{
+    height: 30px;
+    text-align: center;
+    border: #CCCCCC solid 1px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+button {
+    height: 35px;
+    border: #CCCCCC solid 1px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+button:hover{
+    transition: 0.1s;
+    height: 38px;
+    width: 63px;
+}
+#dv_nenhuma_opcao_escolhida{
+    padding-top: 20px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Numbers Translation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>English Numbers Translation 1-5</h1>
+    </nav>
+    <div class="div_pai_traducao">
+        <label>
+            Tradução
+            <input readonly id="inpt_traducao">
+        </label>
+        <button onclick="exibir_resultados()">Traduzir</button>
+        <div id="dv_nenhuma_opcao_escolhida"></div>
+    <div class="slct_escolha_de_numeros">
+        <p>Número</p>
+        &ensp;
+        <select id="slct_escolha_de_numeros">
+            <option value="none"></option>
+            <option value="one">One</option>
+            <option value="two">Two</option>
+            <option value="three">Three</option>
+            <option value="four">Four</option>
+            <option value="five">Five</option>
+        </select>
+    </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
